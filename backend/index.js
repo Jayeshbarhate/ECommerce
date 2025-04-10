@@ -20,7 +20,7 @@ app.use(cors());
 app.use(express.json()); // Required for JSON body parsing
 
 // Database Connection with MongoDB
-mongoose.connect("mongodb+srv://jayeshbarhate:20043337@cluster0.sa03g.mongodb.net/e-commerce")
+mongoose.connect("mongodb+srv://user.jayesh:password@cluster0.sa03g.mongodb.net/e-commerce")
     .then(() => console.log("✅ MongoDB connected successfully"))
     .catch(err => console.error("❌ MongoDB connection error: ", err));
 
